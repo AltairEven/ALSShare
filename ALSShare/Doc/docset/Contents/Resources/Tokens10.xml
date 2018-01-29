@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TencentShareObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TencentShareObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TencentShareObject/setTitle:</TokenIdentifier>
+			<Abstract type="html">标题，最长128个字符</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TencentShareObject/title</TokenIdentifier>
+			<Abstract type="html">标题，最长128个字符</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TencentShareObject/title</TokenIdentifier>
+			<Abstract type="html">标题，最长128个字符</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TencentShareObject/setShareDescription:</TokenIdentifier>
+			<Abstract type="html">简要描述，最长512个字符</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shareDescription</Declaration>
+			
+			
+			<Anchor>//api/name/shareDescription</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TencentShareObject/shareDescription</TokenIdentifier>
+			<Abstract type="html">简要描述，最长512个字符</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shareDescription</Declaration>
+			
+			
+			<Anchor>//api/name/shareDescription</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TencentShareObject/shareDescription</TokenIdentifier>
+			<Abstract type="html">简要描述，最长512个字符</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shareDescription</Declaration>
+			
+			
+			<Anchor>//api/name/shareDescription</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/Altair/Library/Developer/Shared/Documentation/DocSets/com.alisports.ALSShare.docset
+Time: 2017-10-24 06:39:07 +0000

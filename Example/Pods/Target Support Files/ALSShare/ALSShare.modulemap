@@ -1,0 +1,6 @@
+framework module ALSShare {
+  umbrella header "ALSShare-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/ALSSharePlugInitializationProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/ALSSharePlugInitializationProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSSharePlugInitializationInfo.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/ALSSharePlugInitializationProtocol/sharePlugInitilizationInfoForPlatform:</TokenIdentifier>
+			<Abstract type="html">获取初始化信息</Abstract>
+			<DeclaredIn>ALSSharePlugInitializationInfo.h</DeclaredIn>
+			
+			<Declaration>- (ALSSharePlugInitializationInfo *)sharePlugInitilizationInfoForPlatform:(ALSSharePlatform)platform</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platform</Name>
+					<Abstract type="html">分享平台</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">初始化信息数组</Abstract></ReturnValue>
+			<Anchor>//api/name/sharePlugInitilizationInfoForPlatform:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

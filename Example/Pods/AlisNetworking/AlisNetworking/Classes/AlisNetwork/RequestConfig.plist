@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>uploadData</key>
+	<dict>
+		<key>httpMethod</key>
+		<string>POST</string>
+		<key>protocol</key>
+		<string>http</string>
+		<key>api</key>
+		<string>/1442142801331138639111.mp4</string>
+	</dict>
+	<key>AskDemo</key>
+	<dict>
+		<key>httpMethod</key>
+		<string>get</string>
+		<key>protocol</key>
+		<string>HTTP</string>
+	</dict>
+	<key>AskCitieslist</key>
+	<dict>
+		<key>httpMethod</key>
+		<string>GET</string>
+		<key>protocol</key>
+		<string>HTTP</string>
+		<key>server</key>
+		<string>https://api-testesports.alisports.com</string>
+		<key>api</key>
+		<string>/v4/gym/citieslist</string>
+		<key>parseClass</key>
+		<string>CityInfo</string>
+	</dict>
+</dict>
+</plist>

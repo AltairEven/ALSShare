@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TencentWebPageShareObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TencentWebPageShareObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TencentWebPageShareObject/setThumbImage:</TokenIdentifier>
+			<Abstract type="html">预览图像数据，最大1M字节</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *thumbImage</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImage</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TencentWebPageShareObject/thumbImage</TokenIdentifier>
+			<Abstract type="html">预览图像数据，最大1M字节</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *thumbImage</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImage</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TencentWebPageShareObject/thumbImage</TokenIdentifier>
+			<Abstract type="html">预览图像数据，最大1M字节</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *thumbImage</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImage</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TencentWebPageShareObject/setThumbImageUrlString:</TokenIdentifier>
+			<Abstract type="html">预览图像URL **预览图像数据与预览图像URL可二选一</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *thumbImageUrlString</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImageUrlString</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TencentWebPageShareObject/thumbImageUrlString</TokenIdentifier>
+			<Abstract type="html">预览图像URL **预览图像数据与预览图像URL可二选一</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *thumbImageUrlString</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImageUrlString</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TencentWebPageShareObject/thumbImageUrlString</TokenIdentifier>
+			<Abstract type="html">预览图像URL **预览图像数据与预览图像URL可二选一</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *thumbImageUrlString</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImageUrlString</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

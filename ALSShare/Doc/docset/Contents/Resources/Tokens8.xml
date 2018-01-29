@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ALSWeiboSharePlug.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ALSWeiboSharePlug</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSWeiboSharePlug.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSWeiboSharePlug/isOnLine</TokenIdentifier>
+			<Abstract type="html">获取是否在线，即是否启动成功</Abstract>
+			<DeclaredIn>ALSWeiboSharePlug.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)isOnLine</Declaration>
+			
+			<ReturnValue><Abstract type="html">是否在线</Abstract></ReturnValue>
+			<Anchor>//api/name/isOnLine</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSWeiboSharePlug/platform</TokenIdentifier>
+			<Abstract type="html">获取分享插件支持的平台</Abstract>
+			<DeclaredIn>ALSWeiboSharePlug.m</DeclaredIn>
+			
+			<Declaration>- (ALSSharePlatform)platform</Declaration>
+			
+			<ReturnValue><Abstract type="html">插件模式</Abstract></ReturnValue>
+			<Anchor>//api/name/platform</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSWeiboSharePlug/startShare:withResponse:</TokenIdentifier>
+			<Abstract type="html">开始分享</Abstract>
+			<DeclaredIn>ALSWeiboSharePlug.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)startShare:(ALSShareContext *)context withResponse:(void ( ^ ) ( ALSShareResponse *resp ))response</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>context</Name>
+					<Abstract type="html">分享内容</Abstract>
+				</Parameter><Parameter>
+					<Name>response</Name>
+					<Abstract type="html">分享结果</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">是否发起分享</Abstract></ReturnValue>
+			<Anchor>//api/name/startShare:withResponse:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSWeiboSharePlug/getOnlineWithInitializationDelegate:</TokenIdentifier>
+			<Abstract type="html">启动分享操作插件</Abstract>
+			<DeclaredIn>ALSWeiboSharePlug.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)getOnlineWithInitializationDelegate:(id&lt;ALSSharePlugInitializationProtocol&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">分享操作插件启动所需信息的代理</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">启动是否成功</Abstract></ReturnValue>
+			<Anchor>//api/name/getOnlineWithInitializationDelegate:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSWeiboSharePlug/respondsToOpenUrl:</TokenIdentifier>
+			<Abstract type="html">是否可以处理跳转分享操作返回事件</Abstract>
+			<DeclaredIn>ALSWeiboSharePlug.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)respondsToOpenUrl:(NSURL *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">入参URL</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">是否可处理</Abstract></ReturnValue>
+			<Anchor>//api/name/respondsToOpenUrl:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSWeiboSharePlug/application:openURL:options:</TokenIdentifier>
+			<Abstract type="html">处理跳转分享操作返回的事件信息</Abstract>
+			<DeclaredIn>ALSWeiboSharePlug.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary&lt;UIApplicationOpenURLOptionsKey,id&gt; *)options</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>app</Name>
+					<Abstract type="html">UIApplication对象，可直接透传系统的值</Abstract>
+				</Parameter><Parameter>
+					<Name>url</Name>
+					<Abstract type="html">入参URL</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">相关参数</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">处理成功或失败</Abstract></ReturnValue>
+			<Anchor>//api/name/application:openURL:options:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

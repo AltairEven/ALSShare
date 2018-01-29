@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ALSShareSocket.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ALSShareSocket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSShareSocket.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ALSShareSocket/publicSocket</TokenIdentifier>
+			<Abstract type="html">分享操作插座单实例方法</Abstract>
+			<DeclaredIn>ALSShareSocket.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)publicSocket</Declaration>
+			
+			<ReturnValue><Abstract type="html">类实例</Abstract></ReturnValue>
+			<Anchor>//api/name/publicSocket</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareSocket/plugInBuiltInPlugs:</TokenIdentifier>
+			<Abstract type="html">插入内建插件</Abstract>
+			<DeclaredIn>ALSShareSocket.h</DeclaredIn>
+			
+			<Declaration>- (void)plugInBuiltInPlugs:(ALSBuiltInSharePlugStrategy)strategy</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>strategy</Name>
+					<Abstract type="html">插件策略</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/plugInBuiltInPlugs:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareSocket/plugIn:</TokenIdentifier>
+			<Abstract type="html">插入插件</Abstract>
+			<DeclaredIn>ALSShareSocket.h</DeclaredIn>
+			
+			<Declaration>- (void)plugIn:(id&lt;ALSSharePlugProtocol&gt;)plug</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plug</Name>
+					<Abstract type="html">被插入的插件</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/plugIn:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareSocket/plugOutWithPlatform:</TokenIdentifier>
+			<Abstract type="html">拔出插件</Abstract>
+			<DeclaredIn>ALSShareSocket.h</DeclaredIn>
+			
+			<Declaration>- (void)plugOutWithPlatform:(ALSSharePlatform)platform</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platform</Name>
+					<Abstract type="html">被拔出插件的分享操作插件的平台</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/plugOutWithPlatform:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareSocket/plugWithPlatform:</TokenIdentifier>
+			<Abstract type="html">获取对应分享操作模式的已插入插件</Abstract>
+			<DeclaredIn>ALSShareSocket.h</DeclaredIn>
+			
+			<Declaration>- (id&lt;ALSSharePlugProtocol&gt;)plugWithPlatform:(ALSSharePlatform)platform</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platform</Name>
+					<Abstract type="html">分享操作的平台</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">对应分享操作模式的已插入插件</Abstract></ReturnValue>
+			<Anchor>//api/name/plugWithPlatform:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareSocket/getOnlineForPlugWithPlatform:withInitializationDelegate:</TokenIdentifier>
+			<Abstract type="html">将对应分享操作模式的已插入插件启动</Abstract>
+			<DeclaredIn>ALSShareSocket.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)getOnlineForPlugWithPlatform:(ALSSharePlatform)platform withInitializationDelegate:(id&lt;ALSSharePlugInitializationProtocol&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platform</Name>
+					<Abstract type="html">分享操作的平台</Abstract>
+				</Parameter><Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">分享操作初始化代理</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">是否启动成功</Abstract></ReturnValue>
+			<Anchor>//api/name/getOnlineForPlugWithPlatform:withInitializationDelegate:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareSocket/getAllPlugsOnlineWithInitializationDelegate:response:</TokenIdentifier>
+			<Abstract type="html">将所有已插入的插件启动</Abstract>
+			<DeclaredIn>ALSShareSocket.h</DeclaredIn>
+			
+			<Declaration>- (void)getAllPlugsOnlineWithInitializationDelegate:(id&lt;ALSSharePlugInitializationProtocol&gt;)delegate response:(void ( ^ ) ( NSDictionary&lt;NSNumber*,NSNumber*&gt; *resultInfo ))result</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">分享操作代理</Abstract>
+				</Parameter><Parameter>
+					<Name>result</Name>
+					<Abstract type="html">是否启动成功，resultInfo的key是分享操作模式，value是BOOL类型的启动成功标识</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getAllPlugsOnlineWithInitializationDelegate:response:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareSocket/respondingPlugForApplication:openURL:options:</TokenIdentifier>
+			<Abstract type="html">获取可处理跳转分享操作返回的事件信息的分享操作SDK</Abstract>
+			<DeclaredIn>ALSShareSocket.h</DeclaredIn>
+			
+			<Declaration>- (id&lt;ALSSharePlugProtocol&gt;)respondingPlugForApplication:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary&lt;UIApplicationOpenURLOptionsKey,id&gt; *)options</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>app</Name>
+					<Abstract type="html">UIApplication对象，可直接透传系统的值</Abstract>
+				</Parameter><Parameter>
+					<Name>url</Name>
+					<Abstract type="html">入参URL</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">相关参数</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">能处理该信息的分享操作SDK</Abstract></ReturnValue>
+			<Anchor>//api/name/respondingPlugForApplication:openURL:options:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

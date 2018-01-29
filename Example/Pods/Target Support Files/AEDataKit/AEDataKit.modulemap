@@ -1,0 +1,6 @@
+framework module AEDataKit {
+  umbrella header "AEDataKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

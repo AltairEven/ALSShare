@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WeChatShareObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WeChatShareObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatShareObject/setTitle:</TokenIdentifier>
+			<Abstract type="html">标题</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatShareObject/title</TokenIdentifier>
+			<Abstract type="html">标题</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WeChatShareObject/title</TokenIdentifier>
+			<Abstract type="html">标题</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatShareObject/setShareDescription:</TokenIdentifier>
+			<Abstract type="html">描述内容</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shareDescription</Declaration>
+			
+			
+			<Anchor>//api/name/shareDescription</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatShareObject/shareDescription</TokenIdentifier>
+			<Abstract type="html">描述内容</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shareDescription</Declaration>
+			
+			
+			<Anchor>//api/name/shareDescription</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WeChatShareObject/shareDescription</TokenIdentifier>
+			<Abstract type="html">描述内容</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shareDescription</Declaration>
+			
+			
+			<Anchor>//api/name/shareDescription</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatShareObject/setThumbImage:</TokenIdentifier>
+			<Abstract type="html">缩略图数据</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *thumbImage</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImage</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatShareObject/thumbImage</TokenIdentifier>
+			<Abstract type="html">缩略图数据</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *thumbImage</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImage</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WeChatShareObject/thumbImage</TokenIdentifier>
+			<Abstract type="html">缩略图数据</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *thumbImage</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImage</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatShareObject/setMediaTagName:</TokenIdentifier>
+			<Abstract type="html">长度不能超过64字节</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *mediaTagName</Declaration>
+			
+			
+			<Anchor>//api/name/mediaTagName</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatShareObject/mediaTagName</TokenIdentifier>
+			<Abstract type="html">长度不能超过64字节</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *mediaTagName</Declaration>
+			
+			
+			<Anchor>//api/name/mediaTagName</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WeChatShareObject/mediaTagName</TokenIdentifier>
+			<Abstract type="html">长度不能超过64字节</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *mediaTagName</Declaration>
+			
+			
+			<Anchor>//api/name/mediaTagName</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatShareObject/setMessageExt:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *messageExt</Declaration>
+			
+			
+			<Anchor>//api/name/messageExt</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatShareObject/messageExt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *messageExt</Declaration>
+			
+			
+			<Anchor>//api/name/messageExt</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WeChatShareObject/messageExt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *messageExt</Declaration>
+			
+			
+			<Anchor>//api/name/messageExt</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ALSSharePlugInitializationInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ALSSharePlugInitializationInfo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSSharePlugInitializationInfo.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ALSSharePlugInitializationInfo/infoWithSharePlatform:appKey:appSecret:urlScheme:andRedirectUrl:</TokenIdentifier>
+			<Abstract type="html">快捷创建实例对象的方法</Abstract>
+			<DeclaredIn>ALSSharePlugInitializationInfo.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)infoWithSharePlatform:(ALSSharePlatform)platform appKey:(NSString *)key appSecret:(NSString *)secret urlScheme:(NSString *)scheme andRedirectUrl:(NSString *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platform</Name>
+					<Abstract type="html">platform</Abstract>
+				</Parameter><Parameter>
+					<Name>key</Name>
+					<Abstract type="html">appKey</Abstract>
+				</Parameter><Parameter>
+					<Name>secret</Name>
+					<Abstract type="html">appSecret</Abstract>
+				</Parameter><Parameter>
+					<Name>scheme</Name>
+					<Abstract type="html">urlScheme</Abstract>
+				</Parameter><Parameter>
+					<Name>url</Name>
+					<Abstract type="html">redirectUrl</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">类实例</Abstract></ReturnValue>
+			<Anchor>//api/name/infoWithSharePlatform:appKey:appSecret:urlScheme:andRedirectUrl:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

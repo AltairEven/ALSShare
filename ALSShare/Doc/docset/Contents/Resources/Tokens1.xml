@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ALSShareObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ALSShareObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">分享ID，微博分享必填</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/identifier</TokenIdentifier>
+			<Abstract type="html">分享ID，微博分享必填</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ALSShareObject/identifier</TokenIdentifier>
+			<Abstract type="html">分享ID，微博分享必填</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/setTitle:</TokenIdentifier>
+			<Abstract type="html">标题</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/title</TokenIdentifier>
+			<Abstract type="html">标题</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ALSShareObject/title</TokenIdentifier>
+			<Abstract type="html">标题</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/setShareDescription:</TokenIdentifier>
+			<Abstract type="html">描述内容</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shareDescription</Declaration>
+			
+			
+			<Anchor>//api/name/shareDescription</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/shareDescription</TokenIdentifier>
+			<Abstract type="html">描述内容</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shareDescription</Declaration>
+			
+			
+			<Anchor>//api/name/shareDescription</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ALSShareObject/shareDescription</TokenIdentifier>
+			<Abstract type="html">描述内容</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *shareDescription</Declaration>
+			
+			
+			<Anchor>//api/name/shareDescription</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/setThumbImage:</TokenIdentifier>
+			<Abstract type="html">缩略图数据</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *thumbImage</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImage</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/thumbImage</TokenIdentifier>
+			<Abstract type="html">缩略图数据</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *thumbImage</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImage</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ALSShareObject/thumbImage</TokenIdentifier>
+			<Abstract type="html">缩略图数据</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *thumbImage</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImage</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/setThumbImageUrl:</TokenIdentifier>
+			<Abstract type="html">缩略图下载链接</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSURL *thumbImageUrl</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImageUrl</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/thumbImageUrl</TokenIdentifier>
+			<Abstract type="html">缩略图下载链接</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSURL *thumbImageUrl</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImageUrl</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ALSShareObject/thumbImageUrl</TokenIdentifier>
+			<Abstract type="html">缩略图下载链接</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSURL *thumbImageUrl</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImageUrl</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/setWebPageUrlString:</TokenIdentifier>
+			<Abstract type="html">网页地址</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *webPageUrlString</Declaration>
+			
+			
+			<Anchor>//api/name/webPageUrlString</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/webPageUrlString</TokenIdentifier>
+			<Abstract type="html">网页地址</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *webPageUrlString</Declaration>
+			
+			
+			<Anchor>//api/name/webPageUrlString</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ALSShareObject/webPageUrlString</TokenIdentifier>
+			<Abstract type="html">网页地址</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *webPageUrlString</Declaration>
+			
+			
+			<Anchor>//api/name/webPageUrlString</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/setFollowingContent:</TokenIdentifier>
+			<Abstract type="html">分享内容前缀，微博分享选填</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *followingContent</Declaration>
+			
+			
+			<Anchor>//api/name/followingContent</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareObject/followingContent</TokenIdentifier>
+			<Abstract type="html">分享内容前缀，微博分享选填</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *followingContent</Declaration>
+			
+			
+			<Anchor>//api/name/followingContent</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ALSShareObject/followingContent</TokenIdentifier>
+			<Abstract type="html">分享内容前缀，微博分享选填</Abstract>
+			<DeclaredIn>ALSShareContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *followingContent</Declaration>
+			
+			
+			<Anchor>//api/name/followingContent</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

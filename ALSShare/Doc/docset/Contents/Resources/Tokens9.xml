@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TencentImageShareObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TencentImageShareObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TencentImageShareObject/setImage:</TokenIdentifier>
+			<Abstract type="html">分享的图片，必填，最大5M字节</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TencentImageShareObject/image</TokenIdentifier>
+			<Abstract type="html">分享的图片，必填，最大5M字节</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TencentImageShareObject/image</TokenIdentifier>
+			<Abstract type="html">分享的图片，必填，最大5M字节</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TencentImageShareObject/setThumbImage:</TokenIdentifier>
+			<Abstract type="html">预览图像数据，最大1M字节</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *thumbImage</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImage</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TencentImageShareObject/thumbImage</TokenIdentifier>
+			<Abstract type="html">预览图像数据，最大1M字节</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *thumbImage</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImage</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TencentImageShareObject/thumbImage</TokenIdentifier>
+			<Abstract type="html">预览图像数据，最大1M字节</Abstract>
+			<DeclaredIn>ALSTencentSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *thumbImage</Declaration>
+			
+			
+			<Anchor>//api/name/thumbImage</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ALSShareService.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ALSShareService</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSShareService.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareService/setSharingContext:</TokenIdentifier>
+			<Abstract type="html">当前分享内容，如果非nil，则说明当前app正在分享进行中。</Abstract>
+			<DeclaredIn>ALSShareService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) ALSShareContext *sharingContext</Declaration>
+			
+			
+			<Anchor>//api/name/sharingContext</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareService/sharingContext</TokenIdentifier>
+			<Abstract type="html">当前分享内容，如果非nil，则说明当前app正在分享进行中。</Abstract>
+			<DeclaredIn>ALSShareService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) ALSShareContext *sharingContext</Declaration>
+			
+			
+			<Anchor>//api/name/sharingContext</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ALSShareService/sharingContext</TokenIdentifier>
+			<Abstract type="html">当前分享内容，如果非nil，则说明当前app正在分享进行中。</Abstract>
+			<DeclaredIn>ALSShareService.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) ALSShareContext *sharingContext</Declaration>
+			
+			
+			<Anchor>//api/name/sharingContext</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ALSShareService/globalService</TokenIdentifier>
+			<Abstract type="html">单实例</Abstract>
+			<DeclaredIn>ALSShareService.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)globalService</Declaration>
+			
+			<ReturnValue><Abstract type="html">单实例</Abstract></ReturnValue>
+			<Anchor>//api/name/globalService</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareService/activateBuiltInPlugs:withInitializationDelegate:response:</TokenIdentifier>
+			<Abstract type="html">激活内建的分享插件</Abstract>
+			<DeclaredIn>ALSShareService.h</DeclaredIn>
+			
+			<Declaration>- (void)activateBuiltInPlugs:(ALSBuiltInSharePlugStrategy)strategy withInitializationDelegate:(id&lt;ALSSharePlugInitializationProtocol&gt;)delegate response:(void ( ^ ) ( NSDictionary&lt;NSNumber*,NSNumber*&gt; *resultInfo ))result</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>strategy</Name>
+					<Abstract type="html">插件的激活策略</Abstract>
+				</Parameter><Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">初始化代理</Abstract>
+				</Parameter><Parameter>
+					<Name>result</Name>
+					<Abstract type="html">激活结果</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/activateBuiltInPlugs:withInitializationDelegate:response:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareService/getShareServiceOnlineWithPlatform:initializationDelegate:</TokenIdentifier>
+			<Abstract type="html">使对应平台的插件上线</Abstract>
+			<DeclaredIn>ALSShareService.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)getShareServiceOnlineWithPlatform:(ALSSharePlatform)platform initializationDelegate:(id&lt;ALSSharePlugInitializationProtocol&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platform</Name>
+					<Abstract type="html">平台</Abstract>
+				</Parameter><Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">初始化代理</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">是否上线成功</Abstract></ReturnValue>
+			<Anchor>//api/name/getShareServiceOnlineWithPlatform:initializationDelegate:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareService/getAllShareServicesOnlineWithInitializationDelegate:response:</TokenIdentifier>
+			<Abstract type="html">使所有平台的插件上线</Abstract>
+			<DeclaredIn>ALSShareService.h</DeclaredIn>
+			
+			<Declaration>- (void)getAllShareServicesOnlineWithInitializationDelegate:(id&lt;ALSSharePlugInitializationProtocol&gt;)delegate response:(void ( ^ ) ( NSDictionary&lt;NSNumber*,NSNumber*&gt; *resultInfo ))result</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">初始化代理</Abstract>
+				</Parameter><Parameter>
+					<Name>result</Name>
+					<Abstract type="html">上线结果</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getAllShareServicesOnlineWithInitializationDelegate:response:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareService/startShare:withResponse:</TokenIdentifier>
+			<Abstract type="html">开始分享操作</Abstract>
+			<DeclaredIn>ALSShareService.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)startShare:(ALSShareContext *)context withResponse:(void ( ^ ) ( ALSShareResponse *resp ))response</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>context</Name>
+					<Abstract type="html">分享内容</Abstract>
+				</Parameter><Parameter>
+					<Name>response</Name>
+					<Abstract type="html">分享结果</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">操作结果</Abstract></ReturnValue>
+			<Anchor>//api/name/startShare:withResponse:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareService/application:openURL:options:</TokenIdentifier>
+			<Abstract type="html">处理跳转返回的事件信息</Abstract>
+			<DeclaredIn>ALSShareService.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary&lt;UIApplicationOpenURLOptionsKey,id&gt; *)options</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>app</Name>
+					<Abstract type="html">UIApplication对象，可直接透传系统的值</Abstract>
+				</Parameter><Parameter>
+					<Name>url</Name>
+					<Abstract type="html">入参URL</Abstract>
+				</Parameter><Parameter>
+					<Name>options</Name>
+					<Abstract type="html">相关参数</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">处理成功或失败</Abstract></ReturnValue>
+			<Anchor>//api/name/application:openURL:options:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,93 @@
+PODS:
+  - AEDataKit (0.0.23):
+    - AELocalDataKit
+    - AlisNetworking
+  - AELocalDataKit (0.0.6)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AlisNetworking (0.3.0):
+    - AlisNetworking/AlisNetwork (= 0.3.0)
+    - AlisNetworking/AlisNetworkingBase (= 0.3.0)
+    - AlisNetworking/AlisNetWorkingPlugins (= 0.3.0)
+  - AlisNetworking/AlisNetwork (0.3.0):
+    - AlisNetworking/AlisNetworkingBase
+  - AlisNetworking/AlisNetworkingBase (0.3.0)
+  - AlisNetworking/AlisNetWorkingPlugins (0.3.0):
+    - AFNetworking
+    - AlisNetworking/AlisNetworkingBase
+    - SDWebImage
+  - ALSShare (0.0.9):
+    - ALSShare/Interface (= 0.0.9)
+    - ALSShare/Plug (= 0.0.9)
+    - ALSShare/Public (= 0.0.9)
+  - ALSShare/Interface (0.0.9):
+    - ALSShare/Public
+  - ALSShare/Plug (0.0.9):
+    - ALSShare/Plug/Tencent (= 0.0.9)
+    - ALSShare/Plug/Wechat (= 0.0.9)
+    - ALSShare/Plug/Weibo (= 0.0.9)
+    - ALSShare/Public
+  - ALSShare/Plug/Tencent (0.0.9):
+    - AEDataKit
+    - ALSShare/Public
+    - UMengUShare/Social/QQ
+  - ALSShare/Plug/Wechat (0.0.9):
+    - AEDataKit
+    - ALSShare/Public
+    - WechatOpenSDK_NoPay
+  - ALSShare/Plug/Weibo (0.0.9):
+    - AEDataKit
+    - ALSShare/Public
+    - UMengUShare/Social/Sina
+  - ALSShare/Public (0.0.9)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
+  - UMengUShare/Core (6.4.7):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.7)
+  - UMengUShare/Social/QQ (6.4.7):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.7):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.7):
+    - UMengUShare/Core
+  - UMengUShare/Social/Sina (6.4.7):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedSina
+  - WechatOpenSDK_NoPay (1.8.0)
+
+DEPENDENCIES:
+  - ALSShare (from `../`)
+
+EXTERNAL SOURCES:
+  ALSShare:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AEDataKit: f5dbc395c19d4331a503cc07182192b43ba67941
+  AELocalDataKit: 13db136cb0a85ba3b1455d810dc846371ec2bde5
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AlisNetworking: 58862cdffba8db9622d030f76035aefba78bfa72
+  ALSShare: cdc93517b5378bf16128e2bd062cf1fe192fec1b
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
+  UMengUShare: 5055d0e01c844379e173bdca0840fc9fa9297d88
+  WechatOpenSDK_NoPay: 27366a152202a6a7c8a15fad4d07261e87fb2389
+
+PODFILE CHECKSUM: 86faaee563beb28a0338a50dd60db40266f150e7
+
+COCOAPODS: 1.2.1

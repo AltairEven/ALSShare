@@ -1,0 +1,11 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AEDataKit" "$PODS_CONFIGURATION_BUILD_DIR/AELocalDataKit" "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/ALSShare" "$PODS_CONFIGURATION_BUILD_DIR/AlisNetworking" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage" "${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK" "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/UMengUShare" "${PODS_ROOT}/Headers/Public/WechatOpenSDK_NoPay"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDKPlugin" $(inherited) "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ" $(inherited) "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina" $(inherited) "${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK" $(inherited) "${PODS_ROOT}/WechatOpenSDK_NoPay/OpenSDK1.8.0_NoPay"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/AEDataKit/AEDataKit.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AELocalDataKit/AELocalDataKit.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking/AFNetworking.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ALSShare/ALSShare.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/AlisNetworking/AlisNetworking.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage/SDWebImage.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/UMengUShare" -isystem "${PODS_ROOT}/Headers/Public/WechatOpenSDK_NoPay"
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"sqlite3" -l"sqlite3.0" -l"z" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreTelephony" -framework "ImageIO" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

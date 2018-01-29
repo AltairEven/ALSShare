@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WeChatImageShareObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WeChatImageShareObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatImageShareObject/setImage:</TokenIdentifier>
+			<Abstract type="html">图片真实数据内容</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatImageShareObject/image</TokenIdentifier>
+			<Abstract type="html">图片真实数据内容</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WeChatImageShareObject/image</TokenIdentifier>
+			<Abstract type="html">图片真实数据内容</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatImageShareObject/setImageUrlString:</TokenIdentifier>
+			<Abstract type="html">图片url</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *imageUrlString</Declaration>
+			
+			
+			<Anchor>//api/name/imageUrlString</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatImageShareObject/imageUrlString</TokenIdentifier>
+			<Abstract type="html">图片url</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *imageUrlString</Declaration>
+			
+			
+			<Anchor>//api/name/imageUrlString</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WeChatImageShareObject/imageUrlString</TokenIdentifier>
+			<Abstract type="html">图片url</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *imageUrlString</Declaration>
+			
+			
+			<Anchor>//api/name/imageUrlString</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

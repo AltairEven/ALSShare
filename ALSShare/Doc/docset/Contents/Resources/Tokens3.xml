@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ALSShareResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ALSShareResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSShareResponse.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ALSShareResponse/initWithPlatform:</TokenIdentifier>
+			<Abstract type="html">初始化分享操作请求返回的方法</Abstract>
+			<DeclaredIn>ALSShareResponse.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithPlatform:(ALSSharePlatform)platform</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>platform</Name>
+					<Abstract type="html">分享平台</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">类实例</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithPlatform:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

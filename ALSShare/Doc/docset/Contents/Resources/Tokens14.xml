@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/WeChatWebPageShareObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/WeChatWebPageShareObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatWebPageShareObject/setWebPageUrlString:</TokenIdentifier>
+			<Abstract type="html">网页的url地址</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *webPageUrlString</Declaration>
+			
+			
+			<Anchor>//api/name/webPageUrlString</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/WeChatWebPageShareObject/webPageUrlString</TokenIdentifier>
+			<Abstract type="html">网页的url地址</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *webPageUrlString</Declaration>
+			
+			
+			<Anchor>//api/name/webPageUrlString</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/WeChatWebPageShareObject/webPageUrlString</TokenIdentifier>
+			<Abstract type="html">网页的url地址</Abstract>
+			<DeclaredIn>ALSWeChatSharePlug.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *webPageUrlString</Declaration>
+			
+			
+			<Anchor>//api/name/webPageUrlString</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
