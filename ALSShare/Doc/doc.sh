@@ -1,5 +1,5 @@
 #如果是直接执行shell脚本，则指定源文件路径；如果是加到RunScript中，则取消RunScript的注释，并注释掉对应的字段
-
+#! /bin/bash 
 #appledoc Xcode script
 # Start constants
 company="Alisports";
